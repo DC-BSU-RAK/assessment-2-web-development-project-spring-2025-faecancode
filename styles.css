@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    text-align: center;
+}
+
+.sidelogo{    
+    width: 30%;
+    height: 15%;  
+}
+
+.header_text{
+    text-align: center;
+}
+
+.nav{
+   text-align: center
+};
+
