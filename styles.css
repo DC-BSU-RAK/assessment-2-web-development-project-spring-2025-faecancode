@@ -8,11 +8,24 @@
     height: 15%;  
 }
 
-.header_text{
-    text-align: center;
+.header_text1{
+    text-align:left ;
+    font-size: 14px;
+
 }
 
 .nav{
-   text-align: center
-};
+    text-align: center;
+}
 
+.nav a{
+   margin-right: 20px;
+}
+
+#timing{
+    font-size: 40px;
+}
+
+#location{
+    font-size: 40px;
+}
