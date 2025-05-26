@@ -18,6 +18,10 @@
     gap: 10px;
 }
 
+.container3 a{
+    text-decoration: none;
+}
+
 .sidelogo{    
     width: 20%;
     height: 10%;  
@@ -27,6 +31,7 @@
     text-align:left;
     font-size: 13px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 header {
@@ -43,6 +48,31 @@ header {
     height: auto;
 }
 
+.search_form {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 5px;
+}
+
+.search_form input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search_form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+}
+
+.search_form button:hover {
+    color: #007BFF;
+}
+
 
 .nav{
     display: flex;
@@ -54,6 +84,12 @@ header {
     display: flex;
     align-items: center;
     margin-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover{
+    text-decoration: underline;
 }
 
 .nav i{
@@ -81,10 +117,13 @@ header {
 
 
 #search{
-    font-size: 40px;
+    font-size: 30px;
     color:rgb(227, 181, 96);
 }
 
+footer{
+    background-color: #f2f2f2;
+}
 
 footer p{
     display: flex;
@@ -92,14 +131,99 @@ footer p{
     align-items: center;
 }
 
+section h2{
+    text-align: center;
+} 
+
 .review{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 70px;
+}
+
+.review h3{
+
 }
 
 .review p{
     text-align: center;
+}
+
+#end{
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+#end h3{
+    font-family: sans-serif;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between; /* space evenly */
+    gap: 20px;
+    padding: 20px;
+    background-color: #f2f2f2; /* optional styling */
+}
+
+.footer_section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer_section h3 {
+    margin-bottom: 10px;
+}
+
+.footer_section a {
+    text-decoration: none;
+    color: #333;
+    line-height: 1.8;
+}
+
+.footer_section a:hover {
+    text-decoration: underline;
+}
+
+.board {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.board h1 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.board_members figure {
+    width: 200px;
+    text-align: center;
+}
+
+.board_members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.board_members img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* ensures the image fills the box nicely */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.board_members figcaption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.8; /* increases spacing between lines */
 }
 
 
