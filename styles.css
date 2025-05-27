@@ -142,7 +142,7 @@ section h2{
 }
 
 .review h3{
-
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .review p{
@@ -186,15 +186,11 @@ section h2{
     text-decoration: underline;
 }
 
-.board {
-    text-align: center;
-    padding: 40px;
-    background-color: #f9f9f9;
-}
 
 .board h1 {
+    text-align: center;
     margin-bottom: 30px;
-    font-size: 2rem;
+    font-size: 300%;
     color: #333;
 }
 
@@ -213,18 +209,113 @@ section h2{
 .board_members img {
     width: 200px;
     height: 200px;
-    object-fit: cover; /* ensures the image fills the box nicely */
+    object-fit: cover; 
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .board_members figcaption {
     margin-top: 10px;
-    font-size: 0.9rem;
-    color: #555;
-    line-height: 1.8; /* increases spacing between lines */
+    font-size: 90%;
+    color: black;
 }
+
+#welcome,#department,#service,#contact,#about{
+    width: 100%;         
+    height: 30%;
+}       
+
+.appointment_form_section {  
+    text-align: left;
+    width: 30%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgb(221, 216, 216);
+    border-radius: 12px;
+}
+
+.appointment_form_section h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #004f7c;
+}
+
+.appointment_form label {
+    display: block;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.appointment_form input, .appointment_form select {
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 6px;
+  border: solid white;
+  font-size: 14px;
+}
+
+.appointment_form button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 50%;
+  font-size: 18px;
+  background-color: #2f6286;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.appointment_form button:hover {
+  background-color: #2f6286;
+}
+
+.aboutsaqr h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 300%;
+    color: #333;
+}
+
+.aboutsaqr p{
+    font-size: 130%  
+}
+
+.depimg img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+
+.depimg figure {
+    width: 400px;
+    text-align: center;
+}
+
+.depimg figcaption {
+    font-size: 100%;
+    color: black;
+}
+
+.depimg {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.department h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 300%;
+    color: #333;
+}
+
+
 
 
 
